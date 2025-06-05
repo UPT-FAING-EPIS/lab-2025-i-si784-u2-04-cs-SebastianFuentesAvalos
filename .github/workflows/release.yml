@@ -35,13 +35,13 @@ jobs:
           --output ./nupkg \
           /p:PackageVersion=${{ env.VERSION }} \
           /p:PackageId=EcommerceApp.Api \
-          /p:Authors="${{ github.repository_owner }}" \
+          /p:Authors="SebastianFuentesAvalos" \
           /p:Description="EcommerceApp API Package"
 
     - name: Publish to GitHub Packages
       run: |
         dotnet nuget push ./nupkg/*.nupkg \
-          --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json" \
+          --source "https://nuget.pkg.github.com/UPT-FAING-EPIS/index.json" \
           --api-key ${{ secrets.GITHUB_TOKEN }} \
           --skip-duplicate
 

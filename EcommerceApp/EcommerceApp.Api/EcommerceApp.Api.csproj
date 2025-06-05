@@ -10,8 +10,8 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>SebastianFuentesAvalos</Authors>
     <Description>EcommerceApp API Package</Description>
-    <RepositoryUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-si784-u2-04-cs-SebastianFuentesAvalos</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-si784-u2-04-cs-SebastianFuentesAvalos</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-si784-u2-03-cs-SebastianFuentesAvalos</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/UPT-FAING-EPIS/lab-2025-i-si784-u2-03-cs-SebastianFuentesAvalos</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
