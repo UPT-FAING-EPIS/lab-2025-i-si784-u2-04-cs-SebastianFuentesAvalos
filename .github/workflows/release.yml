@@ -1,0 +1,61 @@
+name: Release NuGet Package
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
+
+    env:
+      VERSION: 2022074263
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup .NET 8
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore EcommerceApp/
+
+    - name: Build project
+      run: dotnet build EcommerceApp/ --configuration Release --no-restore
+
+    - name: Pack NuGet package
+      run: |
+        dotnet pack EcommerceApp/EcommerceApp.Api/EcommerceApp.Api.csproj \
+          --configuration Release \
+          --output ./nupkg \
+          /p:PackageVersion=${{ env.VERSION }} \
+          /p:PackageId=EcommerceApp.Api \
+          /p:Authors="${{ github.repository_owner }}" \
+          /p:Description="EcommerceApp API Package"
+
+    - name: Publish to GitHub Packages
+      run: |
+        dotnet nuget push ./nupkg/*.nupkg \
+          --source "https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json" \
+          --api-key ${{ secrets.GITHUB_TOKEN }} \
+          --skip-duplicate
+
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: v${{ env.VERSION }}
+        name: Release ${{ env.VERSION }}
+        body: |
+          🎉 Publicado el paquete NuGet con la versión de matrícula: `v${{ env.VERSION }}`
+          
+          ## Cambios
+          - Paquete NuGet creado para EcommerceApp.Api
+          - Versión: ${{ env.VERSION }}
+        files: ./nupkg/*.nupkg
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
