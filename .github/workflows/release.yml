@@ -22,11 +22,11 @@ jobs:
       with:
         dotnet-version: 8.0.x
 
-    - name: Restore dependencies
-      run: dotnet restore EcommerceApp/
+    - name: Restore dependencies (specific project)
+      run: dotnet restore EcommerceApp/EcommerceApp.Api/EcommerceApp.Api.csproj
 
-    - name: Build project
-      run: dotnet build EcommerceApp/ --configuration Release --no-restore
+    - name: Build project (specific project)
+      run: dotnet build EcommerceApp/EcommerceApp.Api/EcommerceApp.Api.csproj --configuration Release --no-restore
 
     - name: Pack NuGet package
       run: |
