@@ -1,0 +1,346 @@
+{
+  "source_base_path": "/home/runner/work/lab-2025-i-si784-u2-04-cs-SebastianFuentesAvalos/lab-2025-i-si784-u2-04-cs-SebastianFuentesAvalos",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Controllers.CartController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Controllers.CartController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Controllers.CartController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.IAddressInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.IAddressInfo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.IAddressInfo",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.ICard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.ICard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.ICard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.ICartItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.ICartItem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models.ICartItem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.FixedDiscountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.FixedDiscountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.FixedDiscountService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.FixedDiscountService.yml\" sourcestartlinenumber=\"1\">Implementación de descuento fijo basado en una tasa.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.ICartService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.ICartService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.ICartService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.ICartService.yml\" sourcestartlinenumber=\"1\">Define el servicio de operaciones sobre el carrito de compras.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.IDiscountService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.IDiscountService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.IDiscountService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.IDiscountService.yml\" sourcestartlinenumber=\"1\">Define la interfaz para aplicar descuentos sobre un monto total.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.IPaymentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.IPaymentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.IPaymentService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.IPaymentService.yml\" sourcestartlinenumber=\"1\">Define el servicio de procesamiento de pagos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.IShipmentService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.IShipmentService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.IShipmentService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.IShipmentService.yml\" sourcestartlinenumber=\"1\">Define el servicio de envío de productos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.PurchaseService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.PurchaseService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services.PurchaseService",
+      "Summary": "<p sourcefile=\"api/EcommerceApp.Api.Services.PurchaseService.yml\" sourcestartlinenumber=\"1\">Servicio para calcular totales de compra con impuestos y descuentos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Api.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Api.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Api.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.ControllerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.ControllerTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests.ControllerTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.PurchaseServiceTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.PurchaseServiceTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests.PurchaseServiceTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/EcommerceApp.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/EcommerceApp.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EcommerceApp.Tests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "disenio.md",
+      "output": {
+        ".html": {
+          "relative_path": "disenio.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
