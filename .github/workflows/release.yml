@@ -11,7 +11,7 @@ jobs:
       packages: write
 
     env:
-      VERSION: 2022074263
+      VERSION: 2022073902
 
     steps:
     - name: Checkout code

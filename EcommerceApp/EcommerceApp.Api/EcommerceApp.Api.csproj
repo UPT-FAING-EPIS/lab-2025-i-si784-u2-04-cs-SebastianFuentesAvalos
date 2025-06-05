@@ -4,6 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <!-- NuGet Package Properties -->
+    <IsPackable>true</IsPackable>
+    <PackageId>EcommerceApp.Api</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>SebastianFuentesAvalos</Authors>
+    <Description>EcommerceApp API Package</Description>
+    <RepositoryUrl>https://github.com/$(GITHUB_REPOSITORY)</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
